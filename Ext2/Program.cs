@@ -11,7 +11,7 @@ namespace Ext2
             double growth = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите свой вес");
             double height = Convert.ToDouble(Console.ReadLine());
-            double bodyMass = (double)(height / (growth * growth)); 
+            double bodyMass = (double)(height / (growth * growth));
             Console.WriteLine($"Ваш индекс массы тела: {bodyMass} ");
         }
     }
