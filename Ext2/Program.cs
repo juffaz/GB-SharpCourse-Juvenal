@@ -6,7 +6,13 @@ namespace Ext2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Console.WriteLine("Введите свой рост");
+            double growth = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите свой вес");
+            double height = Convert.ToDouble(Console.ReadLine());
+            double bodyMass = (double)(height / (growth * growth)); 
+            Console.WriteLine($"Ваш индекс массы тела: {bodyMass} ");
         }
     }
 }
