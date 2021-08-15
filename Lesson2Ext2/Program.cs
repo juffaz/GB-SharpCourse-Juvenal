@@ -10,7 +10,9 @@ namespace Lesson2Ext2
 
             Console.Write("Введите число : ");
             int num = int.Parse(Console.ReadLine());
-            CountNumber(ref num);
+            int result = CountNumber(ref num);
+            Console.WriteLine("Количество цифр введенного числа : {0}", result);
+            Console.ReadKey();
 
         }
 
@@ -22,9 +24,8 @@ namespace Lesson2Ext2
                 i++;
                 num /= 10;
             }
-            Console.WriteLine("Количество цифр введенного числа : {0}", i);
-            Console.ReadKey();
-            return 0;
+
+            return i;
         }
     }
 }
