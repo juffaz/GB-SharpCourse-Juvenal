@@ -6,6 +6,11 @@ namespace Ext2
     {
         static void Main(string[] args)
         {
+            /*
+            2. Ввести вес и рост человека. 
+            Рассчитать и вывести индекс массы тела (ИМТ) по формуле I=m/(h*h); где m — масса тела в килограммах, h — рост в метрах.
+
+            */
 
             Console.WriteLine("Введите свой рост");
             double growth = Convert.ToDouble(Console.ReadLine());

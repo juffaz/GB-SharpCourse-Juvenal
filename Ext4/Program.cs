@@ -6,6 +6,11 @@ namespace Ext4
     {
         static void Main(string[] args)
         {
+            /*
+            4. Написать программу обмена значениями двух переменных типа int без использования вспомогательных методов.
+            а) с использованием третьей переменной;
+            */
+
             Console.WriteLine("Введите первую переменную");
             int one = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите вторую переменную");
